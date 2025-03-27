@@ -49,23 +49,23 @@ voice_assistant/
 
 Since this assistant is designed to work with Korean voice commands, you must ensure that the Korean language is set up correctly for both speech recognition and text-to-speech. Here's how:
 
-1. Install the Korean Language Pack on Windows
+### 1. Install the Korean Language Pack on Windows
 Follow these steps to add the Korean language and voice on your Windows PC:
    1. Go to Settings > Time & Language > Language
    2. Add Korean as a language (if it’s not already added)
    3. Under Speech, ensure the Korean voice is installed and available
    4. Restart your PC after adding the language pack to ensure everything works properly
 
-2. Install the Required Python Packages
+### 2. Install the Required Python Packages
 The assistant uses the ``speech_recognition`` library to handle speech-to-text (STT) and pyttsx3 for text-to-speech (TTS). Install these packages by running: bash Copy Edit
    ```
    pip install SpeechRecognition pyaudio pyttsx3
    ```
 
-3. Speech Recognition (STT) Setup
+### 3. Speech Recognition (STT) Setup
 The assistant uses Google's Speech Recognition API to handle voice commands in Korean. It automatically recognizes commands spoken in Korean ``(ko-KR)``. No additional configuration is needed for this if you have a working microphone.
 
-4. Text-to-Speech (TTS) Setup
+### 4. Text-to-Speech (TTS) Setup
 The assistant uses ``pyttsx3`` for text-to-speech. The system’s installed voices are used, and it will attempt to use the Korean voice if available.
 
 If the Korean voice is detected on your system, the assistant will automatically set it for speaking Korean responses. This is done using the following code in ``main.py``:
@@ -82,7 +82,7 @@ if korean_voice:
 ```
 If the Korean voice is not available, it will fall back to the default system voice.
 
-5. Set Korean as the Default Language in Code
+### 5. Set Korean as the Default Language in Code
 The speech recognition and TTS are configured to use the Korean language by default in the code. You don’t need to modify any of the settings, as they are pre-configured to handle Korean.
 
 # Contributing
