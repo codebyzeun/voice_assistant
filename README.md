@@ -28,11 +28,14 @@ To get started with the project, follow these steps:
 ## Usage
 
 Run the assistant with:
+```
 python main.py
+```
 
 
 ## Project Structure
 
+```
 voice_assistant/
 ├── commands/           # Contains the code for different voice commands and actions
 ├── config/             # Configuration files and settings for the assistant
@@ -40,3 +43,4 @@ voice_assistant/
 ├── utils/              # Utility functions for speech recognition, text-to-speech, etc.
 ├── main.py             # Main entry point for running the assistant
 └── requirements.txt    # Python dependencies for the project
+```
