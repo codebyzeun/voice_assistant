@@ -1,0 +1,5 @@
+{
+    "language": "en",
+    "weather_api_key": "your_api_key_here",
+    "city": "your_city_name"
+}
