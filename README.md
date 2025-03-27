@@ -17,9 +17,11 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/username/voice_assistant.git
 2. Navigate into the project directory:
-   ```cd voice_assistant
+   ```
+   cd voice_assistant
 3. Install the required dependencies:
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 
 ## Usage
 
