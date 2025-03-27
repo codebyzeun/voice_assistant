@@ -57,6 +57,7 @@ Follow these steps to add the Korean language and voice on your Windows PC:
    4. Restart your PC after adding the language pack to ensure everything works properly
 
 2. Install the Required Python Packages
+The assistant uses the ``speech_recognition`` library to handle speech-to-text (STT) and pyttsx3 for text-to-speech (TTS). Install these packages by running: bash Copy Edit
    ```
    pip install SpeechRecognition pyaudio pyttsx3
    ```
