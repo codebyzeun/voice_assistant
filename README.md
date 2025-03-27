@@ -16,13 +16,15 @@ To get started with the project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/voice_assistant.git
+   ```
 2. Navigate into the project directory:
    ```
    cd voice_assistant
+   ```
 3. Install the required dependencies:
    ```
    pip install -r requirements.txt
-
+   ```
 ## Usage
 
 Run the assistant with:
