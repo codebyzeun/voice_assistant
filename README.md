@@ -62,12 +62,12 @@ Follow these steps to add the Korean language and voice on your Windows PC:
    ```
 
 3. Speech Recognition (STT) Setup
-The assistant uses Google's Speech Recognition API to handle voice commands in Korean. It automatically recognizes commands spoken in Korean `(ko-KR)`. No additional configuration is needed for this if you have a working microphone.
+The assistant uses Google's Speech Recognition API to handle voice commands in Korean. It automatically recognizes commands spoken in Korean ``(ko-KR)``. No additional configuration is needed for this if you have a working microphone.
 
 4. Text-to-Speech (TTS) Setup
-The assistant uses pyttsx3 for text-to-speech. The system’s installed voices are used, and it will attempt to use the Korean voice if available.
+The assistant uses ``pyttsx3`` for text-to-speech. The system’s installed voices are used, and it will attempt to use the Korean voice if available.
 
-If the Korean voice is detected on your system, the assistant will automatically set it for speaking Korean responses. This is done using the following code in main.py:
+If the Korean voice is detected on your system, the assistant will automatically set it for speaking Korean responses. This is done using the following code in ``main.py``:
 
 ```
 voices = engine.getProperty('voices')
